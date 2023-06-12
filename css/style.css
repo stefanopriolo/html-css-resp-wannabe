@@ -145,3 +145,35 @@ img {
     }
 
  }
+
+ @media screen and (max-width: 480px) {
+    .row {
+    display:block;
+   }
+ 
+   .col {
+    display: inline-flex;
+   }
+ 
+   .lessons .col, .steps .col {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+   .why-us .col-left {
+    width:fit-content;
+    padding-bottom: 5rem; 
+}
+
+.why-us .col-right {
+    width: fit-content;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+}
