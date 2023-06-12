@@ -129,22 +129,19 @@ img {
  ************************************************/
 
  @media screen and (max-width: 768px) {
-    .site-header {
+    .site-header, .lessons, .steps, .why-us {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .lessons .col {
-        width: 33%;
+        width: 50%;
     }
 
-   .container {
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
-    }
 
     h2 {
-       
+       text-align: center;
     }
+
  }
